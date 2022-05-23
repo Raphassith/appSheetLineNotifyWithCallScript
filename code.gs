@@ -28,8 +28,8 @@ function lineNoti(msg, img) {
 function alert(content, before, after) {
   let bfURL = getImgURL(before);
   let atURL = getImgURL(after);
-  Logger.log(bfURL);
-  Logger.log(atURL);
+  //Logger.log(bfURL);
+  //Logger.log(atURL);
   lineNoti(content, bfURL);
   lineNoti("หลังจากแก้ไข", atURL);
 }
