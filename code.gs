@@ -3,7 +3,7 @@ function getImgURL(path) {
   let foldername = arrpath[0];
   let filename = arrpath[1];
   let fileId = DriveApp.getFoldersByName(foldername).next().getFilesByName(filename).next().getId();
-  let fileURL = "https://drive.google.com/uc?id=" + fileId;
+  let fileURL = "https://lh3.googleusercontent.com/d/" + fileId;
   return fileURL;
 }
 
