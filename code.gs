@@ -5,6 +5,7 @@ function getImgURL(path) {
   let fileId = DriveApp.getFoldersByName(foldername).next().getFilesByName(filename).next().getId();
   let fileURL = "https://lh3.googleusercontent.com/d/" + fileId;
   // let fileURL = 'https://drive.usercontent.google.com/download?id=' + fileId;
+  // let fileURL = 'https://drive.google.com/uc?id=' + fileId;
   return fileURL;
 }
 
